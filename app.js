@@ -19,6 +19,9 @@ app.get('/',(req,res)=>{
 app.get('/jquery',(req,res)=>{
     res.render('jquerydemo');
 })
+app.get('/product',(req,res)=>{
+    res.render('productATN');
+})
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 console.log('Server is running...');
